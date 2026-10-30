@@ -1,0 +1,4 @@
+customer,amount,status
+Alex,500,paid
+Alex,-100,paid
+Sam,200,paid

@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE settings
+.idea/
+
+# Generated reports
+paid_sales_report.csv
+test_report.csv
+empty_report.csv
+
+.DS_Store
