@@ -37,12 +37,6 @@ def calculate_paid_sales(input_file):
     logging.info(f"{skipped_rows} rows skipped.")
     return paid_sales
 
-try:
-    paid_sales = calculate_paid_sales("sales.csv")
-except FileNotFoundError:
-    print("file not found")
-except ValueError:
-    print("wrong headers in file")
 
 def write_report(paid_sales, output_file):
     with open(output_file, "w", newline="") as file:

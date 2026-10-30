@@ -40,7 +40,7 @@ csv-report-generator/
 4. Run the application:
 
 ```bash
-python learningcsv.py
+python sales_report.py
 ```
 
 The generated report will be saved as `paid_sales_report.csv`.
